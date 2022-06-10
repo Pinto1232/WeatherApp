@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.css'
+
 
 
 declare global
@@ -17,8 +17,8 @@ function App() {
 
 
   return (
-    <div>
-      <h2>Weather App</h2>
+    <div className='bg-blue-600'>
+      <h1>Weather App</h1>
     </div>
   )
 }
