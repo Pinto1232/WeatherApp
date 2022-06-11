@@ -17,7 +17,7 @@ function App() {
 
 
   return (
-    <div className='bg-blue-600'>
+    <div className='bg-blue-600 text-white text-7xl'>
       <h1>Weather App</h1>
     </div>
   )
