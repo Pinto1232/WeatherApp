@@ -1,6 +1,5 @@
 import React from 'react'
-import Roteator from './roteator/Roteator'
-
+import NavBar from './../components/navbar/NavBar'
 
 
 declare global
@@ -14,14 +13,12 @@ declare global
   }
 }
 
-function App() {
-
-
+const Home = () => {
   return (
-    <>
-      <Roteator/>
-    </>
+    <div>
+       <NavBar/>
+    </div>
   )
 }
 
-export default App
+export default Home
