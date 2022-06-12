@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import BtnSignUp from '../button/BtnSignUp'
 import NavLinks from '../navLinks/NavLinks'
 import logo from './../../assets/logo.png'
-/* import { IoMdMenu } from "react-icons/io"; */
+import { IoMdMenu } from "react-icons/io"; 
 
 
 const navBar = (props: any) => {
@@ -17,8 +17,8 @@ const navBar = (props: any) => {
                       <img src={logo} alt="logo" className="md:cursor-pointer h-20" />
                   </Link>
                    <div className="text-3xl md:hidden text-white"  onClick={() => setOpen(!open)}>
-                      <ion-icon name={`${open ? 'close' : 'menu'}`}></ion-icon> 
-                     {/*  <IoMdMenu  name={`${open ? 'close' : 'menu'}`} ></IoMdMenu> */}
+                      {/* <ion-icon name={`${open ? 'close' : 'menu'}`}></ion-icon>  */}
+                     <IoMdMenu  name={`${open ? 'close' : 'menu'}`} ></IoMdMenu> 
                     </div>
               </div>
 
