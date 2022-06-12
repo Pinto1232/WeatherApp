@@ -9,6 +9,7 @@ declare global
     interface IntrinsicElements
     {
       div: React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>,
+      h2: React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>,
     }
   }
 }
@@ -16,7 +17,7 @@ declare global
 const Home = () => {
   return (
     <div>
-       <NavBar/>
+      <h2 className="text-white">Home</h2>
     </div>
   )
 }

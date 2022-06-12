@@ -1,4 +1,5 @@
 import React from 'react'
+import Layout from './components/layout/Layout'
 import Roteator from './roteator/Roteator'
 
 
@@ -19,7 +20,9 @@ function App() {
 
   return (
     <>
-      <Roteator/>
+      <Layout>
+         <Roteator/>
+     </Layout>
     </>
   )
 }
