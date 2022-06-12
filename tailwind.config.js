@@ -29,6 +29,7 @@ module.exports = {
       'silver': '#ecebff',
       'bubble-gum': '#ff77e9',
       'bermuda': '#78dcca',
+      'menu-bg-color': 'rgb(107 114 128)'
     },
   },
   plugins: [

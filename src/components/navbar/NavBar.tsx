@@ -1,37 +1,55 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import BtnSignUp from '../button/BtnSignUp'
 import NavLinks from '../navLinks/NavLinks'
 import logo from './../../assets/logo.png'
+/* import { IoMdMenu } from "react-icons/io"; */
+
 
 const navBar = (props: any) => {
+    const [open, setOpen] = useState(false)
+
   return (
-      <nav className='bg-white'>
+      <nav className='bg-transparent'>
           <div className='flex items-center font-medium justify-around'>
-              <div>
-                  <img src={logo} alt="log" className="md:cursor-pointer h-20" />
+              <div className='z-50 p-5 md:w-auto w-full flex justify-between'>
+                  <Link to='/'>
+                      <img src={logo} alt="logo" className="md:cursor-pointer h-20" />
+                  </Link>
+                   <div className="text-3xl md:hidden text-white"  onClick={() => setOpen(!open)}>
+                      <ion-icon name={`${open ? 'close' : 'menu'}`}></ion-icon> 
+                     {/*  <IoMdMenu  name={`${open ? 'close' : 'menu'}`} ></IoMdMenu> */}
+                    </div>
               </div>
 
-              <ul className="flex uppercase gap-8 md:cursor-pointer">
+              <ul className="md:flex hidden text-white uppercase items-center gap-8 md:cursor-pointer">
                   <li>
-                      <Link to="/" className=" px-3 inline-block">
+                      <Link to="/" className=" py-5 px-3 inline-block">
                          Home
                       </Link>
                   </li>
                   <NavLinks />
               </ul>
 
-              <div className="md:block hiddend">
+              <div className="md:block hidden">
                  <BtnSignUp/> 
               </div>
-
-             {/*  <ul>
+              {/* Mobile navbar*/}
+              <ul className={`md:hidden bg-menu-bg-color text-white  absolute w-full h-full bottom-0 py-24 pl-4
+                duration-500 easy-in ${open ? 'left-0' : 'left-[-100%]'}
+              `}>
                   <li>
-                    <Link to="/" className=" px-3 inline-block">
+                    <Link to="/" className=" py-7 px-3 inline-block">
                          Home
                      </Link>
                   </li>
-              </ul> */}
+                    <NavLinks />
+                 <li className="py-5">
+                    <BtnSignUp/> 
+                 </li>
+              </ul> 
+        
+
           </div>
       </nav>
   )
