@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 const NavLinks = () => {
     const links = [
@@ -23,11 +25,6 @@ const NavLinks = () => {
             label: 'Portfolio',
             to: '/portfolio'
         },
-        {
-            id: 4,
-            label: 'Sign Up',
-            to: '/signup'
-        },
     ]
     
   return (
@@ -35,7 +32,9 @@ const NavLinks = () => {
           {links.map((link) => (
               <div key={link.id}>
                   <div>
-                      <h1>{link.label}</h1>
+                      <Link to={link.to}>
+                          {link.label}
+                      </Link>
                   </div>
             </div>
         ))}

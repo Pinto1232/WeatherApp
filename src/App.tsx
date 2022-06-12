@@ -15,7 +15,7 @@ declare global
   }
 }
 
-function App() {
+function App(props: any) {
 
 
   return (
