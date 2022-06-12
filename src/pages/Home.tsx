@@ -43,9 +43,9 @@ const Home = () => {
           </div>
           
             <h3 className="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">Writes Upside-Down</h3>
-            <p className="text-slate-500 dark:text-slate-400 mt-2 text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero nihil sunt, iste, mollitia quae numquam corrupti quo illo voluptatem hic obcaecati nisi qui nam, beatae adipisci delectus quod earum nesciunt cum atque dolor ipsa impedit? Quis incidunt ipsum ad necessitatibus assumenda eveniet error aut at, laudantium alias perferendis vel placeat, perspiciatis eius molestiae, commodi quos iusto optio sint explicabo doloremque totam voluptatum fugiat! Amet possimus, enim quasi dolorem nobis, reiciendis nam perspiciatis quis accusantium earum veniam, non atque fugit aut veritatis reprehenderit tenetur! Necessitatibus distinctio accusantium voluptas ratione quisquam cupiditate, doloribus autem quae eos in? Fugit ex adipisci quaerat veniam!
-          </p>
+            <p className="text-slate-500 indent-4 text-justify dark:text-slate-400 mt-2 text-sm">
+              Lorem ipsum dolor sit amet, quo illo voluptatem hic obcaecati nisi qui nam, beatae adipisci delectus quod earum nesciunt cum atque dolor ipsa impedit? Quis incidunt ipsum ad necessitatibus assumenda eveniet error aut at, laudantium alias perferendis vel placeat, perspiciatis eius molestiae, commodi quos iusto optio sint explicabo doloremque totam voluptatum fugiat! Amet possimus, enim quasi dolorem nobis, reiciendis nam perspiciatis quis accusantium earum veniam, non atque fugit aut veritatis reprehenderit tenetur! Necessitatibus distinctio accusantium voluptas ratione quisquam cupiditate, doloribus autem quae eos in? Fugit ex adipisci quaerat veniam!
+            </p>
 
    
           
@@ -82,9 +82,14 @@ const Home = () => {
       </div>
 
       <UI>
-        <p className="text-white text-center w-lg bg-metal h-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates harum alias totam repellendus est et consectetur cumque accusantium dolor, doloribus praesentium dolores autem vel sed ex eos molestias. Reprehenderit eligendi, eos ab architecto accusamus quam ullam sint provident laborum a quis explicabo dolorem voluptatibus minus aspernatur officiis deserunt expedita? Asperiores!
-           </p>
+        <p className=" flex text-white text-center w-lg bg-metal ">
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates harum alias totam repellendus est et consectetur cumque accusantium dolor, doloribus praesentium dolores autem vel sed ex eos molestias. Reprehenderit eligendi, eos ab architecto accusamus quam ullam sint provident laborum a quis explicabo dolorem voluptatibus minus aspernatur officiis deserunt expedita? Asperiores!
+          </div>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates harum alias totam repellendus est et consectetur cumque accusantium dolor, doloribus praesentium dolores autem vel sed ex eos molestias. Reprehenderit eligendi, eos ab architecto accusamus quam ullam sint provident laborum a quis explicabo dolorem voluptatibus minus aspernatur officiis deserunt expedita? Asperiores!
+          </div>
+        </p>
       </UI>
     </div>
   )
