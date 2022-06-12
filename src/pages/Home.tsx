@@ -1,5 +1,6 @@
 import React from 'react'
-import NavBar from './../components/navbar/NavBar'
+import logo from '../assets/logo.png'
+
 
 
 declare global
@@ -16,8 +17,15 @@ declare global
 
 const Home = () => {
   return (
-    <div>
-      <h2 className="text-white">Home</h2>
+    <div className="flex mt-10 mx-40 md:w-auto font-medium justify-around gap-2">
+      <div className="bg-transparent basis-1/2">
+        <h2>Home</h2>
+        <img src={logo} alt="" />
+      </div>
+
+      <div className="bg-white flex-initial w-1/3 ">
+        <h2>Home</h2>
+      </div>
     </div>
   )
 }
