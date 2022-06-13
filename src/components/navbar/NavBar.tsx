@@ -4,6 +4,8 @@ import BtnSignUp from '../button/BtnSignUp'
 import NavLinks from '../navLinks/NavLinks'
 import logo from './../../assets/logo.png'
 import { IoMdMenu } from "react-icons/io"; 
+import SearchBar from '../search/SearchBar'
+
 
 
 const navBar = (props: any) => {
@@ -29,11 +31,14 @@ const navBar = (props: any) => {
                       </Link>
                   </li>
                   <NavLinks />
+                  <SearchBar />
               </ul>
+              
 
               <div className="md:block hidden">
                  <BtnSignUp/> 
               </div>
+            
               {/* Mobile navbar*/}
               <ul className={`md:hidden bg-menu-bg-color text-white  absolute w-full h-full bottom-0 py-24 pl-4
                 duration-500 easy-in ${open ? 'left-0' : 'left-[-100%]'}

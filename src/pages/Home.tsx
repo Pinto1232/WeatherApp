@@ -44,9 +44,9 @@ const Home = () => {
 
 
 
-      <div className=" m-0  flex mt-10 m-1 px-5 py-10  w-2xl  h-auto  "> 
+      <div className=" m-0  flex mt-10 m-1 px-5 py-10   w-2xl  h-auto  "> 
         <div>
-          <p className="text-white  text-4xl uppercase mb-5">Last weather update</p>
+          <p className="text-white text-center  text-4xl uppercase mb-5">Last weather update</p>
             <GridWidget />
           </div>
       </div>
