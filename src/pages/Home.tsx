@@ -25,7 +25,7 @@ const Home = () => {
     <div className="flex flex-wrap md:mt-10 mx-40 md:w-auto font-medium justify-around gap-2">
        <div className="mt-10 mx-40 -z-50  items-center md:w-auto font-medium ">
         <h1 className="text-white text-center mb-5 text-4xl uppercase">Chek Out the Weather for today </h1>
-        <motion.img className="md:w-full max-w-xl" src={globe} alt=""
+        <motion.img className="md:w-full min-w-full max-w-xl" src={globe} alt=""
          animate={{ rotate: 360, y: [0, 50, 0]  }}
           transition={{
             flip: Infinity,
@@ -42,7 +42,7 @@ const Home = () => {
       </div>
 
     
-      <div className=" flex text-white text-center w-lg flex-wrap">
+      <div className=" flex text-white mt-20 text-center w-lg flex-wrap">
           <div className="text-black-text flex-1 w-64 w-full  ">
               <div className="p-6 mx-auto bg-transparent rounded-xl shadow-lg flex items-center space-x-4">
                 <Table />

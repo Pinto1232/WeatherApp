@@ -8,15 +8,15 @@ const HomeWidget = () => {
       <div>
            <div className=" text-white dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
             <div>
-              <span className="inline-flex bg-white items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
-                <svg className="h-6 w-6 gap-8 text-white" xmlns={Sun} fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"></svg>
+              <span className="inline-flex  bg-white items-center animate-bounce justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
+                <svg className="h-6 w-6 gap-8 text-white" xmlns={Sun} fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="false"></svg>
               </span>
             
-              <span className="inline-flex bg-menu-bg-color m-3 items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
+              <span className="inline-flex bg-menu-bg-color animate-bounce m-3 items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
                 <svg className="h-6 w-6 gap-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"></svg>
               </span>
             
-              <span className="inline-flex  bg-midnight items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
+              <span className="inline-flex animate-bounce bg-midnight items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
                 <svg className="h-6 w-6 gap-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"></svg>
               </span>
           </div>
@@ -28,10 +28,10 @@ const HomeWidget = () => {
 
    
           
-          <div className="py-8 px-8 max-w-lg mx-auto mt-10 bg-midnight rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
-            <img className="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0" src={globe} alt="" />
+          <div className="py-8 px-8  max-w-lg mx-auto mt-10 bg-midnight rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+            <img className="block  mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0" src={globe} alt="" />
               <div className="text-center space-y-2 sm:text-left">
-                <div className="space-y-0.5">
+                <div className="space-y-0.5 ">
                   <p className="text-lg text-black font-semibold">
                     Erin Lindford
                   </p>
