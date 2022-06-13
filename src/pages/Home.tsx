@@ -1,7 +1,9 @@
 import React from 'react'
 import globe from '../assets/globe.webp'
 import Sun from '../assets/sun.svg'
-import UI from '../components/ui/UI'
+import { motion } from "framer-motion"
+import Table from '../components/tables/Table'
+
 
 
 
@@ -21,23 +23,32 @@ declare global
 const Home = () => {
   return (
     <div className="flex flex-wrap md:mt-10 mx-40 md:w-auto font-medium justify-around gap-2">
-       <div className="mt-10 mx-40 items-center md:w-auto font-medium ">
-        <h1 className="text-white text-center mb-5 text-4xl">Chek Out the Weather for today </h1>
-        <img className="md:w-full  max-w-xl" src={globe} alt="" />
+       <div className="mt-10 mx-40 -z-50  items-center md:w-auto font-medium ">
+        <h1 className="text-white text-center mb-5 text-4xl uppercase">Chek Out the Weather for today </h1>
+        <motion.img className="md:w-full max-w-xl" src={globe} alt=""
+         animate={{ rotate: 360, y: [0, 50, 0]  }}
+          transition={{
+            flip: Infinity,
+            ease: "easeOut", duration: 50,
+              transitionEnd: {
+              display: "none",
+            },
+          }}
+        />
       </div>
 
       <div className="bg-transparent px-5 py-5 grow  md:mt-10 flex-initial w-1/3 shadow-2xl  md:w-32xl  ">
-         <div className="bg-white dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
+         <div className=" text-white dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
             <div>
-              <span className="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
+              <span className="inline-flex bg-white items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
                 <svg className="h-6 w-6 gap-8 text-white" xmlns={Sun} fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"></svg>
               </span>
             
-              <span className="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
+              <span className="inline-flex bg-menu-bg-color m-3 items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
                 <svg className="h-6 w-6 gap-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"></svg>
               </span>
             
-              <span className="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
+              <span className="inline-flex  bg-midnight items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
                 <svg className="h-6 w-6 gap-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"></svg>
               </span>
           </div>
@@ -60,7 +71,7 @@ const Home = () => {
                     Product Engineer
                   </p>
                 </div>
-                <button className="px-4 py-1 bg-white text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Message</button>
+                <button className="px-4 text-black-text py-1 bg-white text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Message</button>
               </div>
           </div>
 
@@ -75,22 +86,24 @@ const Home = () => {
                     Product Engineer
                   </p>
                 </div>
-                <button className="px-4 py-1  bg-white text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Message</button>
+                <button className="px-4 py-1 text-black-text bg-white text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Message</button>
               </div>
           </div>
          </div>
       </div>
 
-      <UI>
-        <p className=" flex text-white text-center w-lg bg-metal ">
-          <div>
+    
+      <div className=" flex text-white text-center w-lg flex-wrap">
+          <div className="text-black-text flex-1 w-64 w-full  ">
+              <div className="p-6 mx-auto bg-transparent rounded-xl shadow-lg flex items-center space-x-4">
+                <Table />
+              </div>
+          </div>
+
+          <div className="basis-1/2 p-6 mx-auto text-center items-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates harum alias totam repellendus est et consectetur cumque accusantium dolor, doloribus praesentium dolores autem vel sed ex eos molestias. Reprehenderit eligendi, eos ab architecto accusamus quam ullam sint provident laborum a quis explicabo dolorem voluptatibus minus aspernatur officiis deserunt expedita? Asperiores!
           </div>
-          <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates harum alias totam repellendus est et consectetur cumque accusantium dolor, doloribus praesentium dolores autem vel sed ex eos molestias. Reprehenderit eligendi, eos ab architecto accusamus quam ullam sint provident laborum a quis explicabo dolorem voluptatibus minus aspernatur officiis deserunt expedita? Asperiores!
-          </div>
-        </p>
-      </UI>
+      </div>
     </div>
   )
 }

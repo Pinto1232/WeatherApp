@@ -107,7 +107,7 @@ const NavLinks = () => {
       <>
           {links.map((link) => (
               <div key={link.id}>
-                  <div className="px-3 p-5 text-left md:cursor-pointer group">
+                  <div className="px-3 p-5 text-left md:cursor-pointer group bg-black-text">
                       <Link to={link.to} className="py-7  md:text-white">
                           {link.label}
                       </Link>
