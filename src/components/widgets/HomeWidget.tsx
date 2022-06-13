@@ -21,7 +21,7 @@ const HomeWidget = () => {
               </span>
           </div>
           
-            <h3 className="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">Writes Upside-Down</h3>
+            <h3 className="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight ">Writes Upside-Down</h3>
             <p className="text-slate-500 indent-4 text-justify dark:text-slate-400 mt-2 text-sm">
               Lorem ipsum dolor sit amet, quo illo voluptatem hic obcaecati nisi qui nam, beatae adipisci delectus quod earum nesciunt cum atque dolor ipsa impedit? Quis incidunt ipsum ad necessitatibus assumenda eveniet error aut at, laudantium alias perferendis vel placeat, perspiciatis eius molestiae, commodi quos iusto optio sint explicabo doloremque totam voluptatum fugiat! Amet possimus, enim quasi dolorem nobis, reiciendis nam perspiciatis quis accusantium earum veniam, non atque fugit aut veritatis reprehenderit tenetur! Necessitatibus distinctio accusantium voluptas ratione quisquam cupiditate, doloribus autem quae eos in? Fugit ex adipisci quaerat veniam!
             </p>

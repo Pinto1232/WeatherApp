@@ -3,6 +3,7 @@ import globe from '../assets/globe.webp'
 import { motion } from "framer-motion"
 import Table from '../components/tables/Table'
 import HomeWidget from '../components/widgets/HomeWidget'
+import { GridWidget } from '../components/widgets/gridwidget/GridWidget'
 
 
 
@@ -41,16 +42,12 @@ const Home = () => {
         <HomeWidget />
       </div>
 
-    
-      <div className=" flex text-white mt-20 text-center w-lg flex-wrap">
-          <div className="text-black-text flex-1 w-64 w-full  ">
-              <div className="p-6 mx-auto bg-transparent rounded-xl shadow-lg flex items-center space-x-4">
-                <Table />
-              </div>
-          </div>
 
-          <div className="basis-1/2 p-6 mx-auto text-center items-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates harum alias totam repellendus est et consectetur cumque accusantium dolor, doloribus praesentium dolores autem vel sed ex eos molestias. Reprehenderit eligendi, eos ab architecto accusamus quam ullam sint provident laborum a quis explicabo dolorem voluptatibus minus aspernatur officiis deserunt expedita? Asperiores!
+
+      <div className=" m-0  flex mt-10 m-1 px-5 py-10  w-2xl  h-auto  "> 
+        <div>
+          <p className="text-white  text-4xl uppercase mb-5">Last weather update</p>
+            <GridWidget />
           </div>
       </div>
     </div>

@@ -6,8 +6,7 @@ type Props = {}
 
 const Table = (props: Props) => {
   return (
-      <UI className="basis-1/2">
-          <table className="border-collapse  h-20 w-full bg-white basis-1/2">
+          <table className="border-collapse w-auto basis-1/2 w-full bg-white">
                   <thead>
                   <tr>
                       <th className="border border-slate-300 ...">Icons</th>
@@ -36,14 +35,8 @@ const Table = (props: Props) => {
                       <td className="border border-slate-300 ...">Detroit</td>
                       <td className="border border-slate-300 ...">Detroit</td>
                     </tr>
-                      <tr>
-                      <td className="border border-slate-300 ...">Michigan</td>
-                      <td className="border border-slate-300 ...">Detroit</td>
-                      <td className="border border-slate-300 ...">Detroit</td>
-                    </tr>
                   </tbody>
      </table>
-     </UI>
   )
 }
 
