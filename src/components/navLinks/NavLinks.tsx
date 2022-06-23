@@ -6,8 +6,8 @@ const NavLinks = () => {
     const links = [
         {
             id: 0,
-            label: 'Contact',
-            to: '/contact',
+            label: 'Guide',
+            to: '/guide',
             submenu: true, 
             sublinks: [
                 { 
@@ -65,8 +65,8 @@ const NavLinks = () => {
 
         {
             id: 1,
-            label: 'About Us',
-            to: '/about',
+            label: 'Marketplace',
+            to: '/marketplace',
             submenu: true, 
             sublinks: [
                 { 
@@ -93,20 +93,20 @@ const NavLinks = () => {
         },
         {
             id: 2,
-            label: 'Map',
+            label: 'Maps',
             to: '/map'
         },
-        {
-            id: 3,
-            label: 'Portfolio',
-            to: '/portfolio'
+            {
+            id: 2,
+            label: 'Pricing',
+            to: '/pricing'
         },
     ]
     
   return (
       <>
           {links.map((link) => (
-              <div key={link.id}>
+              <div key={link.id} className=" z-50 ">
                   <div className="px-3 p-5 text-left md:cursor-pointer group ">
                       <Link to={link.to} className="py-7  md:text-white">
                           {link.label}

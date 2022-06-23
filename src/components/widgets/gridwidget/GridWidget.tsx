@@ -1,32 +1,22 @@
-import React from 'react'
-import BoxCard from '../../boxcard/BoxCard'
-import UI from './../../ui/UI'
-
+import { Box, Container, Grid } from '@mui/material';
+import { height } from '@mui/system';
+import React from 'react';
+import BoxCard from '../../boxcard/BoxCard';
+import UI from './../../ui/UI';
 
 export const GridWidget = () => {
-  
-
-return (
-<div className=" flex  text-center">
-  <div className="flex flex-wrap gap-2 ">
-      <div className="contents">
-        <UI className="bg-transparent">
-            <BoxCard />
-        </UI>
-      </div>
-      
-      <div className="contents">
-        <UI className="bg-transparent">
-            <BoxCard />
-        </UI>
-      </div>
-      
-      <div className="contents">
-        <UI className="bg-transparent">
-            <BoxCard />
-        </UI>
-      </div>
-  </div>
-</div>
-)
-  }
+	return (
+		<Container>
+      <Box
+        sx={{
+          backgroundColor: '#fff',
+          height: 500
+         }}
+      >
+        <Grid>
+          1
+        </Grid>
+			</Box>
+		</Container>
+	);
+};

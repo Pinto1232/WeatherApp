@@ -1,5 +1,5 @@
 import React from 'react'
-import './StyleUI.css'
+import './StyleUI.module.css'
 
 const UI = (props: any) => {
   const classes = 'card ' + props.className;
