@@ -2,21 +2,22 @@ import { lightBlue } from '@mui/material/colors';
 import React from 'react';
 import { FaAngleDown } from 'react-icons/fa';
 
-const BtnSignUp = () =>
+const BtnStart = () =>
 {
 	return (
 		<div className='bg-black-text'>
 			<button
 				type='submit'
 				className='bg-black border-2 flex 
-				   uppercase border-purple md:px-7
-				   md:py-1.5  text-white
+				   uppercase border-purple md:px-9
+                   mt-10
+				   md:py-2.5  text-white  text-sm
 				 '>
 				Sign Up<FaAngleDown
 					style={{
-						marginTop: '5px',
+						marginTop: '1px',
 						marginLeft: '2px',
-						color: ' rgb(63 60 187)'
+                        color: ' rgb(63 60 187)'
 					}}
 				/>
 			</button>
@@ -24,4 +25,4 @@ const BtnSignUp = () =>
 	);
 };
 
-export default BtnSignUp;
+export default BtnStart;

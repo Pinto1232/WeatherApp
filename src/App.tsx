@@ -1,19 +1,8 @@
 import React from 'react'
 import Layout from './components/layout/Layout'
 import Roteator from './roteator/Roteator'
+import './App.css';
 
-
-
-declare global
-{
-  namespace JSX
-  { 
-    interface IntrinsicElements
-    {
-      div: React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>,
-    }
-  }
-}
 
 function App(props: any) {
 

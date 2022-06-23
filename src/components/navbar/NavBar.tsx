@@ -5,6 +5,7 @@ import NavLinks from '../navLinks/NavLinks'
 import logo from './../../assets/logo.png'
 import { IoMdMenu } from "react-icons/io"; 
 import SearchBar from '../search/SearchBar'
+import {FaAngleDown} from "react-icons/fa"
 
 
 
@@ -12,31 +13,39 @@ const navBar = (props: any) => {
     const [open, setOpen] = useState(false)
 
   return (
-      <nav className=' sticky top-0 bg-black-text '>
-          <div className='flex items-center font-medium justify-around '>
-              <div className='z-50 p-5 md:w-auto w-full flex justify-between'>
+      <nav className=' sticky top-0 bg-black '>
+          <div className='flex mx-48 items-center font-medium justify-around '>
+              <div className='z-50 text-white uppercase md:w-auto w-full flex justify-around'>
                   <Link to='/'>
-                      <img src={logo} alt="logo" className="md:cursor-pointer h-20" />
+                     <h1 className='text-xl font-bold'>Forecast</h1>
                   </Link>
                    <div className="text-3xl md:hidden text-white"  onClick={() => setOpen(!open)}>
-                      {/* <ion-icon name={`${open ? 'close' : 'menu'}`}></ion-icon>  */}
-                     <IoMdMenu  name={`${open ? 'close' : 'menu'}`} ></IoMdMenu> 
+                         <ion-icon name={`${open ? 'close' : 'menu'}`}></ion-icon>
                     </div>
               </div>
 
-              <ul className="md:flex hidden text-white uppercase items-center gap-8 md:cursor-pointer">
+              <ul className="md:flex  hidden text-white uppercase items-center gap-8 md:cursor-pointer">
                   <li>
-                      <Link to="/" className=" py-5 px-3 inline-block">
-                         Home
+                      <Link to="/" className="  flex py-5 px-3 border-b-2 border-purple inline-block">
+                          Home<FaAngleDown
+                              style={{
+                                marginTop: '5px',
+                                marginLeft: '2px',
+                                color: " rgb(63 60 187)"
+                             }}
+                          />
                       </Link>
                   </li>
                   <NavLinks />
-                  <SearchBar />
               </ul>
               
 
               <div className="md:block hidden">
                  <BtnSignUp/> 
+              </div>
+
+              <div className="md:block hidden text-white">
+                  <SearchBar />
               </div>
             
               {/* Mobile navbar*/}
