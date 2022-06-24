@@ -6,7 +6,10 @@ const CardService = () => {
 	return (
 		<div>
 			<Container>
-				<Box className='grid grid-cols-3 basis-full pb-10 gap-3'>
+				<Box
+					className='grid grid-cols-3
+					 basis-full pb-10 gap-3'
+				>
 					<Grid
 						style={{
 							borderBottom: '2px solid #fff',

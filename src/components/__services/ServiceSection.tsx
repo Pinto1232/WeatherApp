@@ -6,9 +6,11 @@ import ServiceHeader from '../__serviceheader/ServiceHeader';
 const ServiceSection = () => {
 	return (
 		<div>
-			<Container maxWidth='' className='mt-8 bg-smooth-black text-white text-2xl font-bold  p-10'>
-				<ServiceHeader />
-			</Container>
+			<Grid container xs={12} className='mt-8  bg-smooth-black text-white text-2xl font-bold  p-10'>
+				<Container>
+					<ServiceHeader />
+				</Container>
+			</Grid>
 		</div>
 	);
 };
