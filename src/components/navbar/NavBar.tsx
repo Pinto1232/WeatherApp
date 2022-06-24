@@ -13,9 +13,9 @@ const navBar = (props: any) => {
     const [open, setOpen] = useState(false)
 
   return (
-      <nav className=' sticky top-0 bg-black '>
-          <div className='flex mx-48 items-center font-medium justify-around '>
-              <div className='z-50 text-white uppercase md:w-auto w-full flex justify-around'>
+      <nav className=' sticky top-0 bg-black z-50 '>
+          <div className='flex mx-48 items-center font-medium  justify-around '>
+              <div className=' text-white uppercase md:w-auto w-full flex justify-around'>
                   <Link to='/'>
                      <h1 className='text-xl font-bold'>Forecast</h1>
                   </Link>

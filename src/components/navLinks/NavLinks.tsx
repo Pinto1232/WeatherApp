@@ -105,9 +105,9 @@ const NavLinks = () => {
     
   return (
       <>
-          {links.map((link) => (
-              <div key={link.id} className=" z-50 ">
-                  <div className="px-3 p-5 text-left md:cursor-pointer group ">
+          {links.map((link, index) => (
+              <div className=" z-50 ">
+                  <div key={link.id}  className="px-3 p-5 text-left md:cursor-pointer group ">
                       <Link to={link.to} className="py-7  md:text-white">
                           {link.label}
                       </Link>

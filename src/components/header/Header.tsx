@@ -1,10 +1,7 @@
 import { Box, Container, Grid, ListItem } from '@mui/material';
 import * as React from 'react';
 import BtnStart from '../button/BtnStart';
-import { FaGgCircle } from 'react-icons/fa';
-import Divider from '@mui/material/Divider';
-
-
+import Card from '../card/Card';
 
 declare global {
 	namespace JSX {
@@ -31,24 +28,8 @@ const Header = () => {
 						</div>
 						<div className='grow' />
 					</Box>
-					<Box className='flex md:flex justify-items-center gap-4'>
-						<div className='Card basis-full bg-smooth-black p-5'>
-                            <ListItem><FaGgCircle />
-                            </ListItem>
-                            <ListItem>
-                                <h1>Lorem ipsum dolor adipisicing elit.</h1>
-                            </ListItem>
-                             <Divider />
-						</div>
-						<div className='Card basis-full border-2 border-purple bg-smooth-black p-5'>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, tempora incidunt!
-							Blanditiis error obcaecati dolore veniam sapiente fugit magnam dolorem.
-						</div>
-						<div className='Card basis-full bg-smooth-black p-5'>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem consequatur ipsum eligendi
-							officiis! Reiciendis cumque dolorum sed alias. Mollitia, enim.
-						</div>
-					</Box>
+					{/* Card Component */}
+					<Card />
 				</Box>
 			</Grid>
 		</Container>

@@ -10,12 +10,13 @@ const BtnSignUp = () =>
 				type='submit'
 				className='bg-black border-2 flex 
 				   uppercase border-purple md:px-7
-				   md:py-1.5  text-white
+				   md:py-1.5  text-white 
+				   font-bold text-sm inline-block
 				 '>
 				Sign Up<FaAngleDown
 					style={{
 						marginTop: '5px',
-						marginLeft: '2px',
+						marginLeft: '3px',
 						color: ' rgb(63 60 187)'
 					}}
 				/>
