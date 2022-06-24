@@ -38,7 +38,8 @@ module.exports = {
 			bermuda: '#78dcca',
 			'menu-bg-color': 'rgb(107 114 128)',
 			'smooth-black': '#100f10',
-			'card-bg': '#0b0c10'
+			'card-bg': '#0b0c10',
+			'about-bg': '#0c0b0e'
 		}
 	},
 	plugins: [ require('@tailwindcss/typography') ]

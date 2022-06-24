@@ -1,14 +1,16 @@
 import { Divider } from '@material-ui/core';
-import { Box, Grid, ListItem as div } from '@mui/material';
+import { Box, Grid, ListItem as div, ListItem } from '@mui/material';
 import { Container } from '@mui/system';
+import BtnView from '../button/BtnView';
+
 
 const WorkHeader = () => {
 	return (
 		<div>
-			<Grid>
-				<Box className='text-white'>
-					<Container maxWidth='md'>
-						<div className='flex mb-10 mt-20'>
+			<Container maxWidth='md'>
+				<Grid className='flex justify-between text-white mb-10 mt-20'>
+					<Box>
+						<div>
 							<Divider
 								style={{
 									borderBottom: '2px solid #fff',
@@ -16,14 +18,20 @@ const WorkHeader = () => {
 									color: 'purple'
 								}}
 							/>
-							<h1 className='-mt-4 mx-2 text-lg font-extrabold '>Works.</h1>
+							<h1 className='-mt-4 mx-10 text-lg font-extrabold '>Works.</h1>
 							<div>
-								<p className='text-sm -mx-28 mt-4 font-bold text-purple'>OUR SERVICES FOR CUSTOMERS</p>
+								<p className='text-sm  mt-4 font-bold text-purple'>OUR SERVICES FOR CUSTOMERS</p>
 							</div>
 						</div>
-					</Container>
-				</Box>
-			</Grid>
+					</Box>
+
+					<Box>
+						<div>
+							<BtnView />
+						</div>
+					</Box>
+				</Grid>
+			</Container>
 		</div>
 	);
 };
