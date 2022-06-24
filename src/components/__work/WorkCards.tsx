@@ -28,7 +28,7 @@ const WorkCards = () => {
 						<div>
 							<div>
 								<h1>
-									<img src={ImagePC} alt='' />
+									<img src={ImagePhone} alt='' />
                                     <span className='absolute -mt-60'>
                                         
                                     </span>
