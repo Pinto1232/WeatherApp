@@ -7,7 +7,7 @@ const CardService = () => {
 		<div>
 			<Container>
 				<Box
-					className='grid grid-cols-3
+					className='grid grid-cols-3 flex-grow
 					 basis-full pb-10 gap-3'
 				>
 					<Grid
