@@ -2,13 +2,7 @@ import { Link } from '@mui/material';
 import React from 'react';
 import logo from './../../assets/logo_main.png'
 
-declare global {
-	namespace JSX {
-		interface IntrinsicElements {
-			div: React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
-		}
-	}
-}
+
 
 const Footer = () => {
 	return (

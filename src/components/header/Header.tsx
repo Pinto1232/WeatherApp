@@ -4,13 +4,7 @@ import BtnStart from '../button/BtnStart';
 import Card from '../card/Card';
 import WeatherImg from './../../assets/weather.png'
 
-declare global {
-	namespace JSX {
-		interface IntrinsicElements {
-			div: React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
-		}
-	}
-}
+
 
 const Header = () => {
 	return (
