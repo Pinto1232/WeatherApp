@@ -7,6 +7,7 @@ const SearchBar = () => {
       <FaSearch
         style={{
           fontSize: '14px',
+          cursor: 'pointer',
         }}
       />
     </div>

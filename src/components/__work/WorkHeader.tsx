@@ -20,7 +20,7 @@ const WorkHeader = () => {
 							/>
 							<h1 className='-mt-4 mx-10 text-lg font-extrabold '>Works.</h1>
 							<div>
-								<p className='text-sm  mt-4 font-bold text-purple'>OUR SERVICES FOR CUSTOMERS</p>
+								<p className='text-sm  mt-4 font-extrabold text-purple'>OUR SERVICES FOR CUSTOMERS</p>
 							</div>
 						</div>
 					</Box>

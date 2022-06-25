@@ -18,11 +18,11 @@ const Header = () => {
 				<Box className='justify-items-center'>
 					<Box className='flex'>
 						<div className='grow '>
-							<h1 className='mb-4 mt-4 text-purple'>CREATIVE MIND, CREATIVE WORKS</h1>
+							<h1 className='mb-4 mt-4 text-purple font-extrabold'>PRO UPDATES ON TIME </h1>
 
 							<h1 className='flex font-bold flex-col text-6xl leading-none mb-20 '>
-								We are digital
-								<span>agency.</span>
+								Weather forecasts, 
+								<span>nowcasts.</span>
 								<BtnStart />
 							</h1>
 						</div>

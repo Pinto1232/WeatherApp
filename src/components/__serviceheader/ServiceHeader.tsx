@@ -23,7 +23,7 @@ const ServiceHeader = () => {
 						</ListItem>
 
 						<ListItem>
-							<p className='text-sm -mt-20 text-purple'>OUR SERVICES FOR CUSTOMERS</p>
+							<p className='text-sm -mt-20 text-purple font-extrabold'>OUR SERVICES FOR CUSTOMERS</p>
 						</ListItem>
 						<CardService />
 					</Grid>
