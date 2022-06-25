@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import BtnSignUp from '../button/BtnSignUp';
 import NavLinks from '../navLinks/NavLinks';
-import logo from './../../assets/logo.png';
+
 import SearchBar from '../search/SearchBar';
 import { FaAngleDown } from 'react-icons/fa';
 import '@ionic/react/css/core.css';
 import { IoMenu } from 'react-icons/io5';
 
-const navBar: React.FC = (props: any) => {
+const navBar = (props: any) => {
 	const [ open, setOpen ] = useState(false);
 
 	return (
