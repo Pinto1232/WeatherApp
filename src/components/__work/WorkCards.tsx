@@ -3,6 +3,8 @@ import { Box, Grid, ListItem } from '@mui/material';
 import ImageBack from './../../../src/assets/sky.jpg';
 import ImagePC from './../../../src/assets/pc.jpg';
 import ImagePhone from './../../../src/assets/phone.jpg';
+import IphoneImage from './../../assets/iphone.jpg';
+import BrabosImage from './../../assets/brabos.jpeg';
 
 const WorkCards = () => {
 	return (
@@ -39,7 +41,7 @@ const WorkCards = () => {
 						<div>
 							<div>
 								<h1>
-									<img src={ImagePhone} alt='' />
+									<img src={IphoneImage} alt='' />
 									<span className='absolute -mt-60' />
 								</h1>
 							</div>
@@ -52,7 +54,7 @@ const WorkCards = () => {
 						<div>
 							<div>
 								<h1>
-									<img src={ImageBack} alt='' />
+									<img src={ImagePC} alt='' />
 									<span className='absolute -mt-60' />
 								</h1>
 							</div>
@@ -65,7 +67,7 @@ const WorkCards = () => {
 						<div>
 							<div>
 								<h1>
-									<img src={ImageBack} alt='' />
+									<img src={BrabosImage} alt='' />
 									<span className='absolute -mt-60' />
 								</h1>
 							</div>

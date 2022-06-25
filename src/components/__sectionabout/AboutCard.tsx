@@ -1,6 +1,7 @@
 import { Box, Container, Grid, ListItem } from '@mui/material';
 import ImageBack from './../../assets/pc.jpg';
 
+
 const AboutCard = () => {
 	return (
 		<div>
