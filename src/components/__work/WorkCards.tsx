@@ -5,11 +5,12 @@ import ImagePC from './../../../src/assets/pc.jpg';
 import ImagePhone from './../../../src/assets/phone.jpg';
 import IphoneImage from './../../assets/iphone.jpg';
 import BrabosImage from './../../assets/brabos.jpeg';
+import ImageMayback from './../../assets/mayback.jpg';
 
 const WorkCards = () => {
 	return (
 		<div>
-			<Grid container className='grid grid-cols-6 text-white gap-0.3 mb-24 '>
+			<Grid container className='grid grid-cols-6 md:flex-col text-white gap-0.3 mb-24 '>
 				<Grid className='basis-6 flex-grow bg-white '>
 					<Box>
 						<div>
@@ -80,7 +81,7 @@ const WorkCards = () => {
 						<div>
 							<div>
 								<h1>
-									<img src={ImageBack} alt='' />
+									<img src={ImageMayback} alt='' />
 									<span className='absolute -mt-60' />
 								</h1>
 							</div>
