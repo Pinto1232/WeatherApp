@@ -19,13 +19,13 @@ const navBar = (props: any) => {
 						<h1 className='text-xl font-bold'>Forecast</h1>
 					</Link>
 					<div className='text-3xl md:hidden z-50 text-white' onClick={() => setOpen(!open)}>
-						<IoMenu name={`${open ? 'close' : 'menu'}`} />
+						<IoMenu name={`${open ? 'close' : 'menu'}`} ></IoMenu>
 					</div>
 				</div>
 
 				<ul className='md:flex  hidden text-white uppercase items-center gap-8 md:cursor-pointer'>
 					<li>
-						<Link to='/' className='  flex py-5 px-3 border-b-2 border-purple inline-block'>
+						<Link to='/' className='flex py-5 px-3 border-b-2 border-purple'>
 							Home<FaAngleDown
 								style={{
 									marginTop: '5px',
