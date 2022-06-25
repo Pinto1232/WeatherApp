@@ -1,5 +1,4 @@
-import { Divider } from '@material-ui/core'
-import { Box, Container, Grid, ListItem } from '@mui/material'
+import { Box, Container, Divider, Grid, ListItem } from '@mui/material'
 
 
 const AboutHeader = () => {

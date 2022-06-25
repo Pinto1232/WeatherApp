@@ -1,5 +1,4 @@
-import { Divider } from '@material-ui/core';
-import { Box, Grid, ListItem as div, ListItem } from '@mui/material';
+import { Box, Divider, Grid, ListItem as div, ListItem } from '@mui/material';
 import { Container } from '@mui/system';
 import BtnView from '../button/BtnView';
 

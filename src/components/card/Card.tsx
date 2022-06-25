@@ -1,7 +1,7 @@
-import { Box, ListItem } from '@mui/material';
+import { Box, Divider, ListItem } from '@mui/material';
 import React from 'react';
 import { FaGgCircle } from 'react-icons/fa';
-import Divider from '@material-ui/core/Divider';
+
 
 const Card = () => {
 	return (
