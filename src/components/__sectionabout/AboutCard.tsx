@@ -1,9 +1,6 @@
 import { Box, Container, Grid, ListItem } from '@mui/material';
 import ImageBack from './../../assets/pc.jpg';
 
-
-
-
 const AboutCard = () => {
 	return (
 		<div>
@@ -15,67 +12,52 @@ const AboutCard = () => {
 							backgroundSize: 'cover',
 							backgroundRepeat: 'no-repeat',
 							backgroundPosition: 'center',
-							minWidth: '100%',
+							minWidth: '100%'
 						}}
 						className='Card bg-card-bg shadow-3xl '>
 						<ListItem>
 							<div className='text-start p-4 mt-10'>
-								<h1 className='text-sm font-extrabold mb-3'>
-									Digital Strategy
-								</h1>
-								<div className='text-xs'>
-									Lorem ipsum dolor sit amet.
-								</div>
+								<h1 className='text-md font-extrabold mb-3'>Digital Strategy</h1>
+								<div className='text-xs'>Lorem ipsum dolor sit amet.</div>
 							</div>
 						</ListItem>
 					</Grid>
 
-					<Box className='flex md:flex-col   -mt-2 flex-grow'>
+					<Box className='flex md:flex-col gap-1   flex-grow'>
 						<Grid>
-							<ListItem>
-								<Grid
-									style={{
-										backgroundImage: `url(${ImageBack})`,
-										backgroundSize: 'cover',
-										backgroundRepeat: 'no-repeat',
-										backgroundPosition: 'center',
-										minWidth: '100%'
-									}}
-									className='Card bg-card-bg shadow-3xl h-72  pb-20 '>
-									<ListItem>
-										<div className='text-start h-40 p-4 mt-20'>
-											<h1 className='text-sm font-extrabold mb-3'>
-												Digital Strategy
-											</h1>
-											<div className='text-xs mt-4'>
-												Lorem ipsum dolor sit amet.
-											</div>
-										</div>
-									</ListItem>
-								</Grid>
-							</ListItem>
+							<Grid
+								style={{
+									backgroundImage: `url(${ImageBack})`,
+									backgroundSize: 'cover',
+									backgroundRepeat: 'no-repeat',
+									backgroundPosition: 'center',
+									minWidth: '100%'
+								}}
+								className='Card bg-card-bg shadow-3xl h-full  pb-20 '
+							/>
 
 							<ListItem>
-								<Grid
-									style={{
-										backgroundImage: `url(${ImageBack})`,
-										backgroundSize: 'cover',
-										backgroundRepeat: 'no-repeat',
-										backgroundPosition: 'center',
-										minWidth: '100%'
-									}}
-									className='Card bg-card-bg shadow-3xl h-72  pb-20'>
-									<ListItem>
-										<div className='text-start h-40 p-4 mt-20'>
-											<h1 className='text-sm font-extrabold mb-3'>
-												Digital Strategy
-											</h1>
-											<div className='text-xs mt-4'>
-												Lorem ipsum dolor sit amet.
-											</div>
-										</div>
-									</ListItem>
-								</Grid>
+								<div className='text-start h-40 p-4 '>
+									<h1 className='text-md font-extrabold mb-3'>Digital Strategy</h1>
+									<div className='text-xs mt-4'>Lorem ipsum dolor sit amet.</div>
+								</div>
+							</ListItem>
+						</Grid>
+
+						<Grid
+							style={{
+								backgroundImage: `url(${ImageBack})`,
+								backgroundSize: 'cover',
+								backgroundRepeat: 'no-repeat',
+								backgroundPosition: 'center',
+								minWidth: '100%'
+							}}
+							className='Card bg-card-bg shadow-3xl h-72  pb-20'>
+							<ListItem>
+								<div className='text-start h-40 p-4 '>
+									<h1 className='text-md font-extrabold mb-3'>Digital Strategy</h1>
+									<div className='text-xs mt-4'>Lorem ipsum dolor sit amet.</div>
+								</div>
 							</ListItem>
 						</Grid>
 					</Box>

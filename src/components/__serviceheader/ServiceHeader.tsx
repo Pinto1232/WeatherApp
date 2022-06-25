@@ -1,6 +1,5 @@
 import { Box, Grid, ListItem, Divider } from '@mui/material';
 import { Container } from '@mui/system';
-import React from 'react';
 import CardService from '../__card_service/CardService';
 
 const ServiceHeader = () => {

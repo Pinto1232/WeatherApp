@@ -6,7 +6,7 @@ import ServiceHeader from '../__serviceheader/ServiceHeader';
 const ServiceSection = () => {
 	return (
 		<div>
-			<Grid container xs={12} className='mt-8  bg-smooth-black text-white text-2xl font-bold  p-10'>
+			<Grid container className='mt-8  bg-smooth-black text-white text-2xl font-bold  p-10'>
 				<Container>
 					<ServiceHeader />
 				</Container>

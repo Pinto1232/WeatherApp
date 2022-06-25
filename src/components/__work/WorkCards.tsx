@@ -7,16 +7,14 @@ import ImagePhone from './../../../src/assets/phone.jpg';
 const WorkCards = () => {
 	return (
 		<div>
-			<Grid container xs={12} className='grid grid-cols-6 text-white gap-0.3 mb-24 '>
+			<Grid container className='grid grid-cols-6 text-white gap-0.3 mb-24 '>
 				<Grid className='basis-6 flex-grow bg-white '>
 					<Box>
 						<div>
 							<div>
 								<h1>
 									<img src={ImageBack} alt='' />
-                                    <span className='absolute -mt-60'>
-                                        
-                                    </span>
+									<span className='absolute -mt-60' />
 								</h1>
 							</div>
 						</div>
@@ -29,9 +27,7 @@ const WorkCards = () => {
 							<div>
 								<h1>
 									<img src={ImagePhone} alt='' />
-                                    <span className='absolute -mt-60'>
-                                        
-                                    </span>
+									<span className='absolute -mt-60' />
 								</h1>
 							</div>
 						</div>
@@ -44,9 +40,7 @@ const WorkCards = () => {
 							<div>
 								<h1>
 									<img src={ImagePhone} alt='' />
-                                    <span className='absolute -mt-60'>
-                                        
-                                    </span>
+									<span className='absolute -mt-60' />
 								</h1>
 							</div>
 						</div>
@@ -59,9 +53,7 @@ const WorkCards = () => {
 							<div>
 								<h1>
 									<img src={ImageBack} alt='' />
-                                    <span className='absolute -mt-60'>
-                                        
-                                    </span>
+									<span className='absolute -mt-60' />
 								</h1>
 							</div>
 						</div>
@@ -74,9 +66,7 @@ const WorkCards = () => {
 							<div>
 								<h1>
 									<img src={ImageBack} alt='' />
-                                    <span className='absolute -mt-60'>
-                                        
-                                    </span>
+									<span className='absolute -mt-60' />
 								</h1>
 							</div>
 						</div>
@@ -89,9 +79,7 @@ const WorkCards = () => {
 							<div>
 								<h1>
 									<img src={ImageBack} alt='' />
-                                    <span className='absolute -mt-60'>
-                                        
-                                    </span>
+									<span className='absolute -mt-60' />
 								</h1>
 							</div>
 						</div>

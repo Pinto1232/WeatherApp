@@ -6,7 +6,7 @@ import WorkHeader from './WorkHeader';
 const WorkSection = () => {
 	return (
 		<div>
-			<Grid container xs={12} className=' bg-smooth-black mt-10 mb-20 '>
+			<Grid container className=' bg-smooth-black mt-10 mb-20 '>
 				<Box>
 					<WorkHeader />
 					<WorkCards />
