@@ -2,7 +2,7 @@ import { Box, Grid } from '@mui/material';
 import ImageBack from './../../../src/assets/sky.jpg';
 import ImagePC from './../../../src/assets/pc.jpg';
 import Imagecromatic from './../../../src/assets/cromatic.jpg';
-import IphoneImage from './../../assets/iphone.jpg';
+import IphoneImage from './../../assets/phone.jpg';
 import BrabosImage from './../../assets/brabos.jpeg';
 import ImageMayback from './../../assets/mayback.jpg';
 
