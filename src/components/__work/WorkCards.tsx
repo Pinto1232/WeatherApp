@@ -1,7 +1,7 @@
 import { Box, Grid } from '@mui/material';
 import ImageBack from './../../../src/assets/sky.jpg';
 import ImagePC from './../../../src/assets/pc.jpg';
-import ImagePhone from './../../../src/assets/phone.jpg';
+import Imagecromatic from './../../../src/assets/cromatic.jpg';
 import IphoneImage from './../../assets/iphone.jpg';
 import BrabosImage from './../../assets/brabos.jpeg';
 import ImageMayback from './../../assets/mayback.jpg';
@@ -28,7 +28,7 @@ const WorkCards = () => {
 						<div>
 							<div>
 								<h1>
-									<img src={ImagePhone} alt='' />
+									<img src={Imagecromatic} alt='' />
 									<span className='absolute -mt-60' />
 								</h1>
 							</div>
