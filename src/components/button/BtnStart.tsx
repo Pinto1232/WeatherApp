@@ -10,10 +10,10 @@ const BtnStart = () =>
 				type='submit'
 				className='bg-black border-2 flex 
 				   uppercase border-purple md:px-9
-                   mt-10
+                   mt-10 hover:bg-midnight
 				   md:py-2.5  text-white  text-sm
 				 '>
-				Sign Up<FaAngleDown
+				Check Out<FaAngleDown
 					style={{
 						marginTop: '1px',
 						marginLeft: '2px',

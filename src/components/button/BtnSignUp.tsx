@@ -11,7 +11,7 @@ const BtnSignUp = () =>
 				className='bg-black border-2 flex 
 				   uppercase border-purple md:px-7
 				   md:py-1.5  text-white 
-				   font-bold text-sm 
+				   font-bold text-sm hover:bg-midnight
 				 '>
 				Sign Up<FaAngleDown
 					style={{

@@ -1,5 +1,4 @@
 import { Link } from '@mui/material';
-import React from 'react';
 import logo from './../../assets/logo_main.png'
 
 

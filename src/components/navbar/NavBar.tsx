@@ -13,7 +13,7 @@ const navBar = (props: any) => {
 
 	return (
 		<nav className=' sticky top-0 bg-black-text bg-black z-50 '>
-			<div className='flex mx-48 items-center font-medium  justify-around '>
+			<div className='flex mx-40 sm:mx-10 items-center font-medium  justify-around '>
 				<div className=' text-white uppercase md:w-auto w-full flex justify-around'>
 					<Link to='/'>
 						<h1 className='text-xl font-bold'>Forecast</h1>

@@ -1,7 +1,6 @@
 import { Box, Container, Grid, ListItem } from '@mui/material';
 import ImageBack from './../../assets/pc.jpg';
 
-
 const AboutCard = () => {
 	return (
 		<div>
@@ -39,8 +38,8 @@ const AboutCard = () => {
 
 							<ListItem>
 								<div className='text-start h-40 p-4 '>
-									<h1 className='text-md font-extrabold mb-3'>Digital Strategy</h1>
-									<div className='text-xs mt-4'>Lorem ipsum dolor sit amet.</div>
+									{/* <h1 className='text-md font-extrabold mb-3'>Digital Strategy</h1>
+									<div className='text-xs mt-4'>Lorem ipsum dolor sit amet.</div> */}
 								</div>
 							</ListItem>
 						</Grid>
@@ -56,8 +55,8 @@ const AboutCard = () => {
 							className='Card bg-card-bg shadow-3xl h-72  pb-20'>
 							<ListItem>
 								<div className='text-start h-40 p-4 '>
-									<h1 className='text-md font-extrabold mb-3'>Digital Strategy</h1>
-									<div className='text-xs mt-4'>Lorem ipsum dolor sit amet.</div>
+									{/* 	<h1 className='text-md font-extrabold mb-3'>Digital Strategy</h1>
+									<div className='text-xs mt-4'>Lorem ipsum dolor sit amet.</div> */}
 								</div>
 							</ListItem>
 						</Grid>

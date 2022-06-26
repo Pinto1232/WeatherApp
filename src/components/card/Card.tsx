@@ -1,5 +1,4 @@
 import { Box, Divider, ListItem } from '@mui/material';
-import React from 'react';
 import { FaGgCircle } from 'react-icons/fa';
 
 

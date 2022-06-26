@@ -9,7 +9,7 @@ const BtnView = () => {
 				type='submit'
 				className='bg-black border-2 flex 
 				   uppercase border-purple md:px-9
-               
+                   hover:bg-midnight
 				   md:py-2.5  text-white  text-sm'>
 				     View<FaAngleDown
                 

@@ -1,5 +1,4 @@
-import React from 'react';
-import { Box, Grid, ListItem } from '@mui/material';
+import { Box, Grid } from '@mui/material';
 import ImageBack from './../../../src/assets/sky.jpg';
 import ImagePC from './../../../src/assets/pc.jpg';
 import ImagePhone from './../../../src/assets/phone.jpg';
@@ -10,7 +9,7 @@ import ImageMayback from './../../assets/mayback.jpg';
 const WorkCards = () => {
 	return (
 		<div>
-			<Grid container className='grid grid-cols-6 md:flex-col text-white gap-0.3 mb-24 '>
+			<Grid container className='grid grid-cols-6 flex-grow text-white gap-0.3 mb-24 '>
 				<Grid className='basis-6 flex-grow bg-white '>
 					<Box>
 						<div>
