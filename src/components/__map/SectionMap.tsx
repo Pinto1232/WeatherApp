@@ -1,10 +1,10 @@
-import React from 'react'
-import MapCard from './mapCard'
+import MapCard from "./MapCard"
+
 
 const SectionMap = () => {
   return (
     <div>
-        <MapCard />  
+        <MapCard />
     </div>
   )
 }
