@@ -4,7 +4,7 @@ import ImagePC from './../../../src/assets/pc.jpg';
 import Imagecromatic from './../../../src/assets/cromatic.jpg';
 import IphoneImage from './../../assets/phone.jpg';
 import BrabosImage from './../../assets/brabos.jpeg';
-import ImageMayback from './../../assets/mayback.jpg';
+/* import ImageMayback from './../../assets/mayback.jpg'; */
 
 const WorkCards = () => {
 	return (
@@ -80,7 +80,7 @@ const WorkCards = () => {
 						<div>
 							<div>
 								<h1>
-									<img src={ImageMayback} alt='' />
+									<img src={Imagecromatic} alt='' />
 									<span className='absolute -mt-60' />
 								</h1>
 							</div>
